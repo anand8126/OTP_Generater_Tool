@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate OTP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h2 class="heading">OTP Generator Tool </h2>
+
+        <div id="otpDisplay"></div>
+        <button class="generate-btn" onclick="generateOTP()">Generate OTP</button>
+
+        <div class="otp-input">
+            <input type="text" id="otpInput" placeholder="Enter OTP">
+            <button class="validate-btn" onclick="validateOTP()">Validate OTP</button>
+            
+        </div>
+        <div>
+            <p class="about">An OTP (One-Time Password) Generator Tool is a security mechanism used to enhance the authentication process by providing a dynamic and time-sensitive password for each login attempt. It adds an extra layer of security, especially in scenarios where traditional static passwords may be vulnerable to attacks.</p>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
